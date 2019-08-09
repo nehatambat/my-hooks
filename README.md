@@ -5,8 +5,6 @@
 1. Counter
 2. Todo List
 
----
-
 ## Steps to create project:
 
 npx create-react-app my-hooks
@@ -17,8 +15,6 @@ npm start
 <br>
 
 Access Port: [http://localhost:3000/](http://localhost:3000)
-
----
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 

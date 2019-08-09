@@ -4,7 +4,7 @@ import _ from "lodash";
 import Dashboard from "./Dashboard";
 import TextField from "@material-ui/core/TextField";
 import Button from "@material-ui/core/Button";
-import { generateRandomId } from "../../helpers";
+import { generateRandomId } from "../../components/helpers";
 
 const TodoList = () => {
   const classes = useStyles();
