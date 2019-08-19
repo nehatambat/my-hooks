@@ -20,6 +20,7 @@ import IconButton from "@material-ui/core/IconButton";
 import MenuIcon from "@material-ui/icons/Menu";
 import MainContent from "./components/MainContent";
 import Footer from "./components/Footer";
+import { exampleList } from "./components/ExampleList";
 
 const drawerWidth = 240;
 
@@ -143,10 +144,7 @@ const App = () => {
         </div>
         <Divider />
         <List>
-          {[
-            { id: 1, name: "Counter", icon: "one" },
-            { id: 2, name: "TodoList", icon: "two" }
-          ].map((example, index) => (
+          {exampleList.map((example, index) => (
             <ListItem
               button
               key={example.name}

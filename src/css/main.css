@@ -38,3 +38,42 @@
   background-color: black;
   color: white;
 }
+
+.formContainer {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.detailsContainer {
+  width: 50%;
+}
+
+.detailsForm {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+
+.employeeForm {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  padding: 10px;
+}
+
+.employeeListContainer {
+  width: 50%;
+  padding: 10px;
+}
+
+.formBtn {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.inputField {
+  padding: 10px;
+}
